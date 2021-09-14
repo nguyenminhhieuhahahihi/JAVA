@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accepted_error_no_error">No error</string>
+    <string name="accepted_error_unknown_error">Unknown error</string>
+    <string name="accepted_error_only_wifi_network">Only WiFi network</string>
+    <string name="accepted_error_player_error">Player error</string>
+    <string name="accepted_error_network_error">Network error</string>
+    <string name="accepted_error_file_not_found">File not found</string>
+    <string name="accepted_error_data_load_failed">Data load failed</string>
+    <string name="accepted_error_get_url_failed">Get url failed</string>
+    <string name="accepted_error_out_of_memory">Out of memory</string>
+
+    <string name="accepted_preparing">Preparing…</string>
+    <string name="accepted_buffering">Buffering…</string>
+
+    <string name="accepted_music_item_unknown_title">Unknown Title</string>
+    <string name="accepted_music_item_unknown_artist">Unknown Artist</string>
+    <string name="accepted_music_item_unknown_album">Unknown Album</string>
+
+    <string name="accepted_notification_channel_name">Player Controller</string>
+
+</resources>

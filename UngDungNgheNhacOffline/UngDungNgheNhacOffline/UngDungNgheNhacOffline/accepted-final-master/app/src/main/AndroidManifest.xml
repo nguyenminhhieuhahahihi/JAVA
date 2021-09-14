@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="accepted.music">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".activity.welcome.WelcomeActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Welcome">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".activity.navigation.NavigationActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.setting.SettingActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.localmusic.LocalMusicActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.favorite.FavoriteActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.browser.musiclist.MusicListBrowserActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.browser.artist.ArtistBrowserActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.browser.album.AlbumBrowserActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.history.HistoryActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.detail.musiclist.MusicListDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.detail.artist.ArtistDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.detail.album.AlbumDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.multichoice.MusicMultiChoiceActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.search.SearchActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.player.PlayerActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="accepted.player.ui.equalizer.EqualizerActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/EqualizerTheme" />
+
+        <service
+            android:name=".service.AppPlayerService"
+            android:foregroundServiceType="mediaPlayback"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="androidx.media.session.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- EqualizerActivity -->
+    <string name="accepted_ui_title_equalizer">Equalizer</string>
+    <string name="accepted_ui_croller_bass">Bass</string>
+    <string name="accepted_ui_croller_virtualizer">3D</string>
+    <string name="accepted_ui_button_save">Save</string>
+
+    <string name="accepted_ui_des_back">back</string>
+    <string name="accepted_ui_des_drop_down">drop down</string>
+
+    <!-- Equalizer Preset -->
+    <string name="accepted_ui_equalizer_preset_custom">Custom</string>
+    <string name="accepted_ui_equalizer_preset_normal">Normal</string>
+    <string name="accepted_ui_equalizer_preset_classical">Classical</string>
+    <string name="accepted_ui_equalizer_preset_dance">Dance</string>
+    <string name="accepted_ui_equalizer_preset_flat">Flat</string>
+    <string name="accepted_ui_equalizer_preset_folk">Folk</string>
+    <string name="accepted_ui_equalizer_preset_heavy_metal">Heavy Metal</string>
+    <string name="accepted_ui_equalizer_preset_hip_hop">Hip Hop</string>
+    <string name="accepted_ui_equalizer_preset_jazz">Jazz</string>
+    <string name="accepted_ui_equalizer_preset_pop">Pop</string>
+    <string name="accepted_ui_equalizer_preset_rock">Rock</string>
+
+    <string name="accepted_ui_toast_equalizer_not_enabled">Equalizer not enabled</string>
+
+    <!-- BandChartView -->
+    <string name="accepted_ui_band_chart_hint">Not init yet</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="accepted_ui_colorPrimary">#7E57C2</color>
+    <color name="accepted_ui_colorPrimaryDark">#7E57C2</color>
+    <color name="accepted_ui_colorAccent">#7E57C2</color>
+    <color name="accepted_ui_windowBackground">#212121</color>
+    <color name="accepted_ui_textColor">#E0E0E0</color>
+    <color name="accepted_ui_colorDivider">#424242</color>
+    <color name="accepted_ui_colorPressed">#EEEEEE</color>
+    <color name="accepted_ui_colorRipple">#757575</color>
+
+    <!-- Croller -->
+    <color name="accepted_ui_croller_main_circle_color">#616161</color>
+    <color name="accepted_ui_croller_main_circle_disable_color">#424242</color>
+    <color name="accepted_ui_croller_back_circle_color">#424242</color>
+    <color name="accepted_ui_croller_back_circle_disable_color">#303030</color>
+    <color name="accepted_ui_croller_indicator_color">#B39DDB</color>
+    <color name="accepted_ui_croller_indicator_disable_color">#616161</color>
+    <color name="accepted_ui_croller_progress_primary_color">#7E57C2</color>
+    <color name="accepted_ui_croller_progress_primary_disable_color">#616161</color>
+    <color name="accepted_ui_croller_progress_secondary_color">#424242</color>
+    <color name="accepted_ui_croller_progress_secondary_disable_color">#303030</color>
+
+    <!-- Spinner -->
+    <color name="accepted_ui_spinner_colorBackground">#424242</color>
+
+    <!-- EqualizerBandView -->
+    <color name="accepted_ui_colorLine">#424242</color>
+    <color name="accepted_ui_colorProgress">#7E57C2</color>
+    <color name="accepted_ui_colorProgressBackground">#424242</color>
+    <color name="accepted_ui_colorProgressDisable">#424242</color>
+
+    <!-- BandChartView -->
+    <color name="accepted_ui_lineColor">#7E57C2</color>
+    <color name="accepted_ui_lineDisableColor">#424242</color>
+    <color name="accepted_ui_gridLineColor">#424242</color>
+
+</resources>

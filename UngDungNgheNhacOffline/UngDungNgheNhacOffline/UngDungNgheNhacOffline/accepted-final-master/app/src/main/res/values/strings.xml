@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Accepted</string>
+    <string name="search">Search</string>
+
+    <!-- NavigationActivity -->
+    <string name="item_local_music">Music</string>
+    <string name="item_favorite">Favorites</string>
+    <string name="item_music_list" >Music Lists</string>
+    <string name="item_artist">Artists</string>
+    <string name="item_album">Albums</string>
+    <string name="item_history">History</string>
+
+    <!-- MusicListBrowserActivity -->
+    <string name="empty_no_music_list">There is no music list</string>
+    <string name="music_list_size_0">0 song</string>
+    <string name="music_list_size_1">1 song</string>
+    <string name="music_list_size_n">n songs</string>
+    <string name="title_create_music_list">Create music list</string>
+    <string name="hint_music_list_title">music list title</string>
+    <string name="hint_please_input_music_list_title">Please input music list title</string>
+    <string name="hint_music_list_name_exists">Music list name exists</string>
+    <string name="menu_item_rename_music_list">Rename</string>
+    <string name="menu_item_delete_music_list">Delete</string>
+    <string name="message_delete_music_list">Delete music list?</string>
+
+    <!-- ArtistBrowserActivity -->
+    <string name="title_artists">Artists</string>
+    <string name="empty_no_artists">No artists</string>
+
+    <!-- AlbumBrowserActivity -->
+    <string name="title_albums">Albums</string>
+    <string name="empty_no_albums">No albums</string>
+
+    <!-- ArtistDetailActivity -->
+    <string name="title_artist_prefix">Artist: </string>
+
+    <!-- AlbumDetailActivity -->
+    <string name="title_album_prefix">Album: </string>
+
+    <!-- SearchActivity -->
+    <string name="hint_input_music_name">Please input music name</string>
+    <string name="button_text_play">Play</string>
+    <string name="empty_not_found">Not found</string>
+    <string name="toast_start_playing">Start playing</string>
+
+    <!-- MusicMultiSelectActivity -->
+    <string name="text_multi_select_cancel">Cancel</string>
+    <string name="text_multi_select_select_all">Select all</string>
+    <string name="text_multi_select_deselect_all">Deselect all</string>
+    <string name="text_multi_select_zero_items_selected">0 items selected</string>
+    <string name="text_multi_select_one_item_selected">1 item selected</string>
+    <string name="text_multi_select_more_items_selected">n items selected</string>
+    <string name="message_remove_all_selected_songs">Remove selected songs?</string>
+    <string name="toast_no_songs_selected">No songs selected</string>
+
+    <!-- SettingActivity -->
+    <string name="title_settings">Settings</string>
+    <string name="item_title_dark_mode">Dark mode</string>
+    <string name="item_dark_mode_follow_system">Follow system</string>
+    <string name="item_dark_mode_on">Dark mode</string>
+    <string name="item_dark_mode_off">Normal mode</string>
+    <string name="item_play_with_other_app">Background mode</string>
+    <string name="description_play_with_other_app">Music playback won\'t be paused by other apps in Background mode. You\'ll be able to pause music playback manually in the Notification shade.</string>
+
+    <!-- PlaylistDialog -->
+    <string name="playlist">Playlist</string>
+    <string name="empty_playlist">Playlist is empty</string>
+
+    <!-- MusicListAdapter -->
+    <string name="empty_music_list">No songs</string>
+
+    <!-- HistoryAdapter -->
+    <string name="no_history">No history</string>
+    <string name="message_remove_history">Remove history?</string>
+    <string name="message_clear_history">Clear history?</string>
+    <string name="message_play_all_music">Play all music?</string>
+
+    <!-- Activity Title -->
+    <string name="title_local_music">Music</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_music_lists">My music lists</string>
+    <string name="title_history">History</string>
+
+    <!-- BottomMenuDialog -->
+    <string name="dialog">Dialog</string>
+    <string name="menu_item_next_play">Next play</string>
+    <string name="menu_item_add_to_favorite">Add to favorites</string>
+    <string name="menu_item_remove_from_favorite">Remove from favorites</string>
+    <string name="menu_item_add_to_music_list">Add to music list</string>
+    <string name="menu_item_set_as_ringtone">Set as ringtone</string>
+    <string name="menu_item_remove">Remove</string>
+
+    <!-- MessageDialog -->
+    <string name="message_dialog_default_title">Tips</string>
+    <string name="message_dialog_negative_text">Cancel</string>
+    <string name="message_dialog_positive_text">OK</string>
+    <string name="message_remove_from_playlist">Remove  from playlist?</string>
+    <string name="message_remove_from_favorite">Remove from favorites?</string>
+    <string name="message_remove_music">Remove music?</string>
+    <string name="message_need_write_settings_permission">Need permission: Write Settings</string>
+    <string name="message_set_as_ringtone">Set as phone ringtone?</string>
+    <string name="message_scan_local_music">Scan local music?</string>
+    <string name="message_no_new_songs_found">No new songs found</string>
+    <string name="message_one_song_found">1 new song found\nAdd to local music list?</string>
+    <string name="message_many_songs_found">n new songs found\nAdd to local music list?</string>
+
+    <string name="positive_text_request">Request</string>
+
+    <!-- Toast -->
+    <string name="toast_added_to_playlist">Added to playlist</string>
+    <string name="toast_added">Added</string>
+    <string name="toast_removed">Removed</string>
+    <string name="toast_set_successfully">Set successfully</string>
+    <string name="toast_request_permission_failed">Request permission failed</string>
+    <string name="toast_no_read_storage_permission">No read storage permission!</string>
+
+    <!-- SingleChoiceDialog -->
+    <string name="title_single_choice">Title</string>
+
+    <!-- sort order dialog -->
+    <string name="title_sort_music_list">Sort music list</string>
+    <string name="item_sort_by_add_time">By add time</string>
+    <string name="item_sort_by_title">Music from A-Z</string>
+    <string name="item_sort_by_artist">Artists from A-Z</string>
+    <string name="item_sort_by_album">Albums from A-Z</string>
+
+    <!-- ProgressDialog -->
+
+    <!-- ScannerDialog -->
+    <string name="title_scan_music">Scan music</string>
+
+    <!-- InputDialog -->
+    <string name="input_default_title">Input</string>
+    <string name="input_default_hint">Message</string>
+
+    <!-- AddToMusicListDialog -->
+    <string name="title_add_to_music_list">Add to music list</string>
+    <string name="empty_text_no_music_list">There is no music list</string>
+    <string name="button_text_new_music_list">New music list</string>
+    <string name="toast_added_successfully">Added successfully</string>
+
+    <!-- SleepTimerDialog -->
+    <string name="title_sleep_timer">Sleep timer</string>
+    <string name="sleep_timer_cancel">Cancel</string>
+    <string name="sleep_timer_start">Start</string>
+    <string name="sleep_timer_5_minutes">5 min</string>
+    <string name="sleep_timer_10_minutes">10 min</string>
+    <string name="sleep_timer_15_minutes">15 min</string>
+    <string name="sleep_timer_30_minutes">30 min</string>
+    <string name="sleep_timer_40_minutes">40 min</string>
+    <string name="sleep_timer_60_minutes">60 min</string>
+    <string name="sleep_timer_cancel_timer">Cancel Timer</string>
+    <string name="toast_start_sleep_timer">Start sleep timer</string>
+    <string name="toast_cancel_sleep_timer">Cancel sleep timer</string>
+    <string name="toast_keep_screen_on">Keep screen on</string>
+    <string name="toast_cancel_keep_screen_on">Cancel keep screen on</string>
+
+    <!-- content description -->
+    <string name="des_logo">logo</string>
+    <string name="des_search">Search</string>
+    <string name="des_setting">Setting</string>
+    <string name="des_album_icon">Album Icon</string>
+    <string name="des_local_music">Local Music</string>
+    <string name="des_favorite">Favorite</string>
+    <string name="des_music_list">Music List</string>
+    <string name="des_artist">Artist</string>
+    <string name="des_album">Album</string>
+    <string name="des_history">History</string>
+    <string name="des_toggle_favorite">Toggle Favorite</string>
+    <string name="des_skip_to_previous">Skip To Previous</string>
+    <string name="des_play_pause">Play Pause</string>
+    <string name="des_skip_to_next">Skip To Next</string>
+    <string name="des_show_playlist">Show Playlist</string>
+    <string name="des_locate_playing_music">Locate Playing Music</string>
+    <string name="des_remove_music">Playlist is empty</string>
+    <string name="des_back">Back</string>
+    <string name="des_sort_music_list">Sort music list</string>
+    <string name="des_scan_local_music">Scan local music</string>
+    <string name="des_menu_icon">menu icon</string>
+    <string name="des_checked">checked</string>
+    <string name="des_clear_input">clear input</string>
+    <string name="des_checkbox">checkbox</string>
+    <string name="des_play_mode">play mode</string>
+    <string name="des_equalizer">equalizer</string>
+    <string name="des_sleep_timer">sleep timer</string>
+    <string name="des_option_menu">option menu</string>
+    <string name="des_clock_icon">clock icon</string>
+
+</resources>

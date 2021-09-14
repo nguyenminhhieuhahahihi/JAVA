@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dialog_item_height"
+    android:background="@drawable/bg_list_item"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp">
+
+    <ImageView
+        android:id="@+id/ivMenuIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:contentDescription="@string/des_menu_icon"
+        android:scaleType="centerInside"
+        app:tint="@color/colorIconTint"
+        tools:src="@drawable/ic_favorite_true" />
+
+    <Space
+        android:layout_width="16dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/tvMenuTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dialog_item_text_size"
+        tools:text="@string/item_favorite" />
+
+</LinearLayout>

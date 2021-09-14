@@ -1,0 +1,157 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5775022343501581136",
+      "lastPropertyId": "8:1813883673919228300",
+      "name": "Music",
+      "properties": [
+        {
+          "id": "1:6395610917097990510",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4827872039429123785",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "3:1108341578396321121",
+          "name": "artist",
+          "type": 9
+        },
+        {
+          "id": "4:3420633603377084055",
+          "name": "album",
+          "type": 9
+        },
+        {
+          "id": "5:5609003660258288444",
+          "name": "uri",
+          "indexId": "3:4221013553340286897",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "6:2141684719747267287",
+          "name": "iconUri",
+          "type": 9
+        },
+        {
+          "id": "7:8233111239104405919",
+          "name": "duration",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "8:1813883673919228300",
+          "name": "addTime",
+          "type": 6,
+          "flags": 4
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:5067723784643407434",
+      "lastPropertyId": "6:7368343324959184704",
+      "name": "MusicListEntity",
+      "properties": [
+        {
+          "id": "1:4464609362064412654",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7798647114351950037",
+          "name": "name",
+          "indexId": "2:3465847823813479526",
+          "type": 9,
+          "flags": 2080
+        },
+        {
+          "id": "4:5769298761492464371",
+          "name": "orderBytes",
+          "type": 23
+        },
+        {
+          "id": "5:5122587991808729882",
+          "name": "size",
+          "type": 5,
+          "flags": 4
+        },
+        {
+          "id": "6:7368343324959184704",
+          "name": "sortOrder",
+          "type": 5,
+          "flags": 2
+        }
+      ],
+      "relations": [
+        {
+          "id": "2:7497635376339594094",
+          "name": "musicElements",
+          "targetId": "1:5775022343501581136"
+        }
+      ]
+    },
+    {
+      "id": "4:3159153831802680421",
+      "lastPropertyId": "3:2194668822285168520",
+      "name": "HistoryEntity",
+      "properties": [
+        {
+          "id": "1:2410443832676476843",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5648341865157716549",
+          "name": "timestamp",
+          "indexId": "4:4599596560928431067",
+          "type": 6,
+          "flags": 12
+        },
+        {
+          "id": "3:2194668822285168520",
+          "name": "musicId",
+          "indexId": "5:5691205513405041255",
+          "type": 11,
+          "flags": 1548,
+          "relationTarget": "Music"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "4:3159153831802680421",
+  "lastIndexId": "5:5691205513405041255",
+  "lastRelationId": "2:7497635376339594094",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    3731149829137421655
+  ],
+  "retiredIndexUids": [
+    2113021747804847872
+  ],
+  "retiredPropertyUids": [
+    3443879266240678600,
+    7825976263740388093,
+    8674322639620567379,
+    2855677130277344458,
+    8384611773884868628,
+    1882694695806314130
+  ],
+  "retiredRelationUids": [
+    2241406291708937587
+  ],
+  "version": 1
+}

@@ -1,0 +1,4 @@
+include ':ui'
+rootProject.name='accepted'
+include ':app'
+include ':player'

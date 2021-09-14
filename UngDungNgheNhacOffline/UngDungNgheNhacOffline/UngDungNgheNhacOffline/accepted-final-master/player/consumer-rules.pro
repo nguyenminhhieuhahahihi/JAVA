@@ -1,0 +1,2 @@
+-keep class accepted.player.helper.VolumeEaseHelper { *; }
+-keep class accepted.player.helper.VolumeEaseHelper$Callback { *; }
